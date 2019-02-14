@@ -35,43 +35,43 @@ const modal = (diaSeleccionado) => {
 
                 id: "opcionUno",
                 content: "No alcanzo",
-                class: "success",
+                class: "bg-red",
                 ico: "check",
                 close: false,
                 onClick: function (modal, btn) {
-                    $('div[data-date="'+  diaSeleccionado + '"]').css('background', 'red');
+                    $('div[data-date="'+  diaSeleccionado + '"]').addClass('bg-red');
                     modal.close();
                 }
             }, {
                 id: "opcionDos",
                 content: "Sin seleccion",
-                class: "success",
+                class: "bg-white",
                 ico: "check",
                 close: false,
                 onClick: function (modal, btn) {
-                    $('div[data-date="' + diaSeleccionado + '"]').css('background', 'white');
+                    $('div[data-date="' + diaSeleccionado + '"]').addClass('bg-white');
                     modal.close();
                 }
             },
             {
                 id: "opcionTres",
                 content: "No llego",
-                class: "success",
+                class: "bg-black",
                 ico: "check",
                 close: false,
                 onClick: function (modal, btn) {
-                    $('div[data-date="' + diaSeleccionado + '"]').css('background', 'black');
+                    $('div[data-date="' + diaSeleccionado + '"]').addClass('bg-black');
                     modal.close();
 
                 }
             }, {
                 id: "opcionCuatro",
                 content: "100",
-                class: "success",
+                class: "bg-green",
                 ico: "check",
                 close: false,
                 onClick: function (modal, btn) {
-                    $('div[data-date="' + diaSeleccionado + '"]').css('background', 'green');
+                    $('div[data-date="' + diaSeleccionado + '"]').addClass('bg-green');
                     modal.close();
 
                 }

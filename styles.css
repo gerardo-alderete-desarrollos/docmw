@@ -5,4 +5,35 @@
 
 .bg-red {
     background: red;
+    color: white;
+}
+
+.bg-white {
+    background: white;
+}
+
+.bg-black {
+    background: black;
+    color: white;
+}
+
+.bg-green {
+    background: green;
+    color: white;
+}
+
+.bg-red:hover {
+    opacity: .9;
+}
+
+.bg-white:hover {
+    opacity: .9;
+}
+
+.bg-black:hover {
+    opacity: .9;
+}
+
+.bg-green:hover {
+    opacity: .9;
 }
